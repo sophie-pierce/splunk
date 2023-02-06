@@ -9,7 +9,7 @@ In the past, VSI did not rely on strict policies to protect against attacks, and
 *Conducted in Vagrant VM*
 
 ## Add-On App: Website Monitoring 
-  - Protect VSI's intellectual property
+  - Goal: Protect VSI's intellectual property
   
 ![addedsplunkapp](https://user-images.githubusercontent.com/109919882/217046246-5a288c51-50cb-45d7-be23-cf95173225ac.png)
 
@@ -26,11 +26,16 @@ Apache Logs:
 - Top 10 geostats
 - HTTP methods over time
 - ClientIP map
-Number of URI paths
-Stats count by status
+- Number of URI paths
+- Stats count by status
 
 ## Windows Logs
 ### Reports
 
-
+- Signature/ID Report
+  - Details signatures and corresponding ID's along with a count for the current log
+- Severity Levels Report
+  - Displays the count and percentages of each severity level
+- Windows Activites Report
+  - Compares sucessful and failed Windows activites
 
